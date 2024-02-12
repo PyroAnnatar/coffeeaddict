@@ -1,3 +1,3 @@
 # coffeeaddict
 
-https://makdagist1.github.io/coffeeaddict/
+https://pyroannatar.github.io/coffeeaddict/
