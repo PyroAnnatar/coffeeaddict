@@ -10,10 +10,10 @@
 
   <body>
     <header>
-      <div>
+      <div class="logo-container">
         <a href="index.html"
-          ><img src="./images/logo.png" id="logo" alt="coffee logo"
-        /></a>
+          ><img src="./images/logo.png" id="logo" alt="coffee logo" />
+        </a>
       </div>
       <h1>Contact</h1>
       <!-- navbar -->
@@ -37,7 +37,13 @@
       <form>
         <!-- name -->
         <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="Your Name" />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Your Name"
+          required
+        />
         <br />
         <br />
 
@@ -53,7 +59,7 @@
           name="description"
           id=""
           cols="80"
-          rows="15"
+          rows="10"
           placeholder="What would you like to tell us?"
         ></textarea>
 
@@ -70,7 +76,7 @@
       <br />
       <br />
       <p>Copyright &copy;2022</p>
-      <h3><a href="#logo">Back To Top</a></h3>
+      <h3><a href="#">Back To Top</a></h3>
     </div>
   </body>
 </html>
